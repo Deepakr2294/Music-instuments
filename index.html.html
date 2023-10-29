@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <audio class="audio" id="violinAudio" src="d:\work\Java\music instuments\violin-trill_mk15cun_.mp3"></audio>
+    <audio class="audio" id="fluteAudio" src="d:\work\Java\music instuments\tabla_loop_4bars_90bpm-86005.mp3"></audio>
+    <audio class="audio" id="tablaAudio" src="d:\work\Java\music instuments\flute_78_d-104176.mp3"></audio>
+    <audio class="audio" id="harmoniumAudio" src="d:\work\Java\music instuments\Harmonium.mp3"></audio>
+    <audio class="audio" id="gitarAudio" src="d:\work\Java\music instuments\Inspiring-Acoustic-Guitar(chosic.com).mp3"></audio>
+    <audio class="audio" id="Drumset" src="d:\work\Java\music instuments\rock-funk-fusion-drum-beat-130bpm-100051.mp3"></audio>
+    <audio class="audio" id="xylophone" src="d:\work\Java\music instuments\magical-sound-effect-7137.mp3"></audio>
+    <audio class="audio" id="Piano-audio" src="d:\work\Java\music instuments\ron-gelinas-chillout-lounge-where-will-i-go(chosic.com).mp3"></audio>
+
+    <h1>Tap Instument Image for sound</h1>
+
+    <div class="image-sec">
+        <div class="img-div">
+            <img onclick="playSound(0)" src="d:\work\Java\music instuments\violin.png" class="instrument" />
+            <br />
+            <span>Guitar</span>
+            <div class="btn-div">
+                <button onclick="reset()">Stop</button>
+            </div>
+        </div>
+        <div class="img-div">
+            <img onclick="playSound(1)" src="d:\work\Java\music instuments\tablaa - pic.jpg" class="instrument" />
+            <br /><span>Drumset</span>
+            <div class="btn-div">
+                <button onclick="reset()">Stop</button>
+            </div>
+        </div>
+        <div class="img-div">
+            <img onclick="playSound(2)" src="d:\work\Java\music instuments\flute- pic.jpg" class="instrument" />
+            <br /><span>Xylophone</span>
+            <div class="btn-div">
+                <button onclick="reset()">Stop</button>
+            </div>
+        </div>
+        <div class="img-div">
+            <img onclick="playSound(3)" src="d:\work\Java\music instuments\harmonium - pic.jpg" />
+            <br /><span>Piano</span>
+            <div class="btn-div">
+                <button onclick="reset()">Stop</button>
+            </div>
+        </div>
+    </div>
+    <!-- section 2 -->
+    <div class="image-sec">
+        <div class="img-div">
+            <img onclick="playSound(4)" src="https://cdn.pixabay.com/photo/2013/07/12/15/06/guitar-149427_1280.png" class="instrument" />
+            <br />
+            <span>Violin</span>
+            <div class="btn-div">
+                <button onclick="reset()">Stop</button>
+            </div>
+        </div>
+        <div class="img-div">
+            <img onclick="playSound(5)" src="https://cdn.pixabay.com/photo/2016/09/26/19/21/drums-1696802_1280.png" class="instrument" />
+            <br /><span>Tabla</span>
+            <div class="btn-div">
+                <button onclick="reset()">Stop</button>
+            </div>
+        </div>
+        <div class="img-div">
+            <img onclick="playSound(6)" src="https://cdn.pixabay.com/photo/2020/05/20/06/31/toys-5194951_1280.jpg" class="instrument" />
+            <br /><span>Flute</span>
+            <div class="btn-div">
+                <button onclick="reset()">Stop</button>
+            </div>
+        </div>
+        <div class="img-div">
+            <img onclick="playSound(7)" src="https://cdn.pixabay.com/photo/2013/07/13/13/43/grand-piano-161447_1280.png" />
+            <br /><span>Gitar</span>
+            <div class="btn-div">
+                <button onclick="reset()">Stop</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="music.js"></script>
+</body>
+
+</html>
